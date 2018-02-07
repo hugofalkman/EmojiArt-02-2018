@@ -66,17 +66,18 @@ class EmojiArtViewController: UIViewController, UIDropInteractionDelegate, UIScr
         }
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        if let url = try? FileManager.default.url(
-            for: .documentDirectory,
-            in: .userDomainMask,
-            appropriateFor: nil,
-            create: true
-        ).appendingPathComponent("Untitled.json") {
-            document = EmojiArtDocument(fileURL: url)
-        }
-    }
+// For testing only
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        if let url = try? FileManager.default.url(
+//            for: .documentDirectory,
+//            in: .userDomainMask,
+//            appropriateFor: nil,
+//            create: true
+//        ).appendingPathComponent("Untitled.json") {
+//            document = EmojiArtDocument(fileURL: url)
+//        }
+//    }
     
     // MARK: - Storyboard
     
