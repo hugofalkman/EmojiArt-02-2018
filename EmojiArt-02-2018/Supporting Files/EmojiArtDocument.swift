@@ -1,5 +1,5 @@
 //
-//  Document.swift
+//  EmojiArtDocument.swift
 //  EmojiArt-02-2018
 //
 //  Created by H Hugo Falkman on 2018-02-07.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Document: UIDocument {
+class EmojiArtDocument: UIDocument {
     
     override func contents(forType typeName: String) throws -> Any {
         // Encode your document with an instance of NSData or NSFileWrapper
