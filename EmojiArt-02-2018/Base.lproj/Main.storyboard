@@ -169,6 +169,11 @@
                         <viewLayoutGuide key="safeArea" id="E1b-1n-HPE"/>
                     </view>
                     <navigationItem key="navigationItem" id="6Iz-d4-3xO">
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="xtf-0c-GGA">
+                            <connections>
+                                <action selector="close:" destination="Og1-DM-ISW" id="ZqI-fJ-XUb"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="4TU-3W-6GP">
                             <connections>
                                 <action selector="save:" destination="Og1-DM-ISW" id="c1V-ax-lF1"/>
